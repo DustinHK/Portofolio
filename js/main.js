@@ -93,6 +93,8 @@
 	    nav:false,
 	    autoplayHoverPause: false,
 	    items: 1,
+		mouseDrag: false,       // ✅ tidak bisa geser manual kiri/kanan
+  		touchDrag: false,    
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
 	      0:{
